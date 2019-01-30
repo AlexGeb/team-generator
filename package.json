@@ -1,0 +1,32 @@
+{
+  "name": "team-generator",
+  "version": "0.0.1",
+  "description": "Generate teams randomly from a bunch of people",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "team",
+    "generator",
+    "random",
+    "typescript"
+  ],
+  "author": "AlexGeb",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha --require ts-node/register src/**/*.test.ts",
+    "test:watch": "yarn test --watch --watch-extensions ts --reporter min"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.5",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {}
+}
